@@ -1,0 +1,98 @@
+﻿@{
+    Layout = "_Layout";
+
+}
+<div class="row">
+    <div class="col-6 offset-3">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Sign-up form</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-group" id="FormGroupName">
+                            <label>Enter Name: <span class="mandatory">*</span></label>
+                            <input type="text" id="txtName" class="form-control" />
+                            <span id="errName"></span>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group" id="FormGroupEmail">
+                            <label>Enter Email: <span class="mandatory">*</span></label>
+                            <input type="text" id="txtEmail" class="form-control" />
+                            <span id="errEmail"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-group" id="FormGroupMobile">
+                            <label>Enter Mobile: <span class="mandatory">*</span></label>
+                            <input type="text" id="txtMobile" class="form-control" />
+                            <span id="errMobile"></span>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group" id="FormGroupGender">
+                            <label>Select Gender: <span class="mandatory">*</span></label>
+                            <select id="ddlGender" class="form-control">
+                                <option value="-1">Select</option>
+                                <option value="1">Male</option>
+                                <option value="2">Female</option>
+                                <option value="3">Other</option>
+                            </select>
+                            <span id="errGender"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-group" id="FormGroupPassword">
+                            <label>Enter Password: <span class="mandatory">*</span></label>
+                            <input type="text" id="txtPassword" class="form-control" />
+                            <span id="errPassword"></span>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="form-group" id="FormGroupConfirmPassword">
+                            <label>Enter Confirm Password: <span class="mandatory">*</span></label>
+                            <input type="password" id="txtConfirmPassword" class="form-control" />
+                            <span id="errConfirmPassword"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-group" id="FormGroupPincode">
+                            <label>Enter Pin Code: <span class="mandatory">*</span></label>
+                            <input type="text" id="txtPincode" class="form-control" />
+                            <span id="errPincode"></span>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group" id="FormGroupAddress">
+                            <label>Enter Address: <span class="mandatory">*</span></label>
+                            <textarea id="txtAddress" class="form-control"></textarea>
+                            <span id="errAddress"></span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-3 offset-9">
+                        <div class="form-group" id="FormSubmit">
+                           <button class="btn btn-secondary btn-block" id="btnSubmit">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+</div>
+<script src="~/js/SignUp.js"></script>
+@*<script src="~/js/SignUp.js"></script>*@

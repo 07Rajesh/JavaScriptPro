@@ -11,3 +11,14 @@
     color: purple;
     font-weight: 700;
 }
+span.mandatory {
+    color: red;
+    font-weight: 700;
+}
+.error-control {
+    font-size: 11px;
+    color: red;
+}
+    .error-control input, error-control select, error-control textarea {
+        border-color: red;
+    }
